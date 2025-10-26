@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Oct 26 18:53:22 EET 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-019a-2170-5b66-000002e30ff8 
+on database directory /Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/homework/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6 
+Loaded from file:/opt/homebrew/Cellar/apache-spark/4.0.1_1/libexec/jars/derby-10.16.1.1.jar
+java.vendor=Homebrew
+java.runtime.version=17.0.16+0
+user.dir=/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/homework
+os.name=Mac OS X
+os.arch=aarch64
+os.version=15.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
