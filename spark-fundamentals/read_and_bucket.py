@@ -70,12 +70,12 @@ def main(args):
 
 
     if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--match_details', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/match_details.csv')
-    parser.add_argument('--matches', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/matches.csv')
-    parser.add_argument('--medal_matches_players', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/medals_matches_players.csv')
-    parser.add_argument('--medals', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/medals.csv')
-    parser.add_argument('--maps', required=False, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/maps.csv')
-    parser.add_argument('--output_db', required=True, default='homework_db')
-    args = parser.parse_args()
-    main(args)
+        parser = argparse.ArgumentParser()
+        parser.add_argument('--match_details', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/match_details.csv')
+        parser.add_argument('--matches', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/matches.csv')
+        parser.add_argument('--medal_matches_players', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/medals_matches_players.csv')
+        parser.add_argument('--medals', required=True, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/medals.csv')
+        parser.add_argument('--maps', required=False, default='/Users/shahnoorali/data-engineer-handbook/intermediate-bootcamp/materials/3-spark-fundamentals/data/maps.csv')
+        parser.add_argument('--output_db', required=True, default='homework_db')
+        args = parser.parse_args()
+        main(args)
